@@ -12,7 +12,7 @@ header {
     color: aquamarine;
 }
 
-section {
+.chamada {
     background: rgb(0, 255, 128);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -30,4 +30,19 @@ h1 {
 
 p{
     font-size: 20x;
+}
+
+img {
+  height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+ .categoria {
+  padding-left: 20px;
+  padding-right: 20px;
 }
